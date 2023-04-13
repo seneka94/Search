@@ -1,0 +1,42 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 70vh;
+    max-width: 575px;
+    min-width: 450px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+input {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 25px;
+  }
+input:hover {
+    border: 1px solid #C0C0C0;
+}
+input:focus {
+    outline: 1px solid #C0C0C0;
+  }
+  button {
+    padding: 5px 10px;
+    margin: 10px 10px;
+    border: 1px solid #FFFFFF;
+}
+button:hover {
+    border: 1px solid #DCDCDC;
+  }
+p {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: black;
+}

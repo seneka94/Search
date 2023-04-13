@@ -1,0 +1,54 @@
+h3 {
+    padding: 0 0 15px 0;
+    margin: 0 0 10px 0;
+    color: #FF0000;
+  }
+h5 {
+    padding: 25px 0 10px 0;
+    margin: 0 0 10px 0;
+}
+form {
+    display: block;
+    flex-direction: column;
+    width: 60vw;
+    height: 70vh;
+    margin: 50px 0 0 70px;
+}
+div {
+
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+input {
+    display: inline-block;
+    width: 69%;
+    min-width: 100px;
+    text-align: left;
+}
+label {
+    display: inline-block;
+    width: 30%;
+    min-width: 190px;
+    text-align: left;
+}
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: white;
+    background-color: #4d90fe;
+    border: none;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+}
+button:hover {
+    background-color: #4d9aff;
+  }
+p {
+    font-family: 'Montserrat';
+    color: black;
+}

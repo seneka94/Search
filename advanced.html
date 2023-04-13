@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link href="style1.css" rel="stylesheet">
+        <title>advanced search</title>
+    </head>
+    <body>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index">Google Search</a>
+            </li>
+        </ul>
+        <form  action="https://www.google.com/search">
+            <section>
+                <h3>Advanced Search</h3>
+                <h5>Find pages with…</h5>
+                <div>
+                    <label><span>all these words:</span></label>
+                    <input type="text" name="as_q">
+                </div>
+                <div>
+                    <label><span>this exact word or phrase:</span></label>
+                    <input type="text" name="as_epq">
+                 </div>
+                <div>
+                    <label><span>any of these words:</span></label>
+                    <input type="text" name="as_oq">
+                </div>
+                <div>
+                    <label><span>none of these words:</span></label>
+                    <input type="text" name="as_eq">
+                </div>
+                <div>
+                    <label> </label>
+                    <button type="submit" value="Advanced Search">Advanced Search</button>
+                </div>
+            </section>
+        </form>
+    </body>
+</html>
