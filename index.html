@@ -6,6 +6,14 @@
         <link href="style.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=0.8" />
         <title>search</title>
+        <script>
+          function text() {
+            document.getElementById("hidden").disabled = true;
+          }
+          function lucky() {
+            document.getElementById("hidden").disabled = false;
+          }
+        </script>
     </head>
     <body>
       <ul class="nav justify-content-end">
@@ -13,15 +21,15 @@
           <a class="nav-link active" aria-current="page" href="image">Image search</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="advanced">Advanced search</a>
+          <a class="nav-link active" href="advanced">Advanced search</a>
         </li>
       </ul>
-      <form action="https://www.google.com/search">
-        <input type="text" name="q">
-
+      <form id="my-form" action="https://www.google.com/search">
+        <input iid="text-input" type="text" name="q">
+        <input  id="hidden" type="hidden" name="btnI" value="I'm feeling lucky">
         <div>
-          <button type="submit" value="Google Search">Google Search</button>
-          <button type="submit" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+          <button id="submit-text" type="submit" value="Google Search" onclick="text()">Google Search</button>
+          <button id="submit-both" type="submit" value="I'm Feeling Lucky" onclick="lucky()">I'm Feeling Lucky</button>
         </div>
       </form>
     </body>
