@@ -1,4 +1,10 @@
+.nav-item > a {
+    color: #222831;
 
+  }
+  .nav-item > a:hover {
+    color: #a6b1e1;
+  }
 form {
     display: flex;
     flex-direction: column;
